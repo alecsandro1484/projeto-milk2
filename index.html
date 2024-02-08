@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="style.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa do Milk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <img src="./imagem/logo.png" alt="logo" class="logo">
+    <div class="conteudo">
+        <div class="caixa-texto">
+            <h2>
+                Não é apenas milk é <span>STARBUCKS </span></span></h2>
+            <p>"Se sua vida esta um pouco amarga,
+                faça dela um MILK SHAKE ou CAFÉ, STABUNCKS,
+                para poder viver com doçura."
+            </p>
+
+            <button>Faça Seu Pedido</button>
+        </div>
+        <div class="caixa-img">
+            <img src="./imagem/img1.png" alt="copogg" class="copo-g">
+        </div>
+    </div>
+
+    <div class="menu">
+
+
+        <img src="./imagem/img-pequena1.png" alt="copo-p" class="copo-p verde">
+
+        <img src="./imagem/img-pequena2.png" alt="copo-pp" class="copo-pp rosa">
+
+        <img src="./imagem/img-pequena3.png" alt="copo-ppp" class="copo-ppp lilas">
+ 
+    </div>
+
+
+    <div class="circulo">
+
+    </div>
+
+</body>
+<script>
+    let circulo = document.querySelector(".circulo")
+   let imgcopo = document.querySelector(".copo-g")
+   let verde = document.querySelector(".verde")
+   let rosa = document.querySelector(".rosa")
+   let lilas = document.querySelector(".lilas")
+
+    rosa.addEventListener("click",() => {                             
+        imgcopo.src ="./imagem/img2.png"
+        circulo.style.background="#eb7495"
+    } )
+    lilas.addEventListener("click",() => {                             
+        imgcopo.src ="./imagem/img3.png"
+        circulo.style.background="#d752b1"
+    } )
+    verde.addEventListener("click",() => {                             
+        imgcopo.src ="./imagem/img1.png"
+        circulo.style.background="#017143"
+    } )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
